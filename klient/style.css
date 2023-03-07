@@ -1,0 +1,25 @@
+body{
+    overflow-y: hidden;
+    margin: 0px;
+    padding: 0px;
+    display:grid;
+    grid-template-columns: 100vh;
+    grid-template-rows:8000% ;
+    grid-template-areas:
+    "lewo prawo"
+    
+}
+
+
+
+#lewo{
+    grid-area: lewo;
+background-color: paleturquoise;
+}
+
+
+
+#prawo{
+    grid-area: prawo;
+background-color: lightblue;
+}
